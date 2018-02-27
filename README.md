@@ -23,6 +23,8 @@ In the new client, please specify iot.eclipse.org:1883 as shown in the redbox
 Specify a new topic in subscriber as "raspberry/ipaddress"
 ![Alt text](mqtt/step5.png?raw=true "MQTTBox")
 
+You can remove publisher as shown in the figure below
 ![Alt text](mqtt/step6.png?raw=true "MQTTBox")
 
+In your raspberry pi, you can click on the last two pins so you will see you will the new private IP address of raspberry Pi.
 ![Alt text](mqtt/step7.png?raw=true "MQTTBox")
