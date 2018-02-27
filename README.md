@@ -13,10 +13,16 @@ Install MQTTbox in Chrome Store
 ![Alt text](mqtt/step2.png?raw=true "MQTTBox")
 
 You can setup a new MQTT client
+
 ![Alt text](mqtt/step3.png?raw=true "MQTTBox")
 
 In the new client, please specify iot.eclipse.org:1883 as shown in the redbox
 ![Alt text](mqtt/step4.png?raw=true "MQTTBox")
 
 
+Specify a new topic in subscriber as "raspberry/ipaddress"
 ![Alt text](mqtt/step5.png?raw=true "MQTTBox")
+
+![Alt text](mqtt/step6.png?raw=true "MQTTBox")
+
+![Alt text](mqtt/step7.png?raw=true "MQTTBox")
