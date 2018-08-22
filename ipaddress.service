@@ -1,0 +1,10 @@
+[Unit]
+Description=IP Script
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/home/pi/test2.sh  
+
+[Install]
+WantedBy=multi-user.target
