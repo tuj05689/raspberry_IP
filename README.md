@@ -6,6 +6,14 @@ git clone https://github.com/lbaitemple/raspberry_IP/
 cp raspberry_IP/test2.sh test2.sh
 ```
 
+Now, you will need to create a startup service
+```
+sudo cp raspberry_IP/ipaddress.service /lib/systemd/system
+sudo systemctl daemon-reload
+sudo systemctl enable  ipaddress
+sudo systemctl start  ipaddress
+```
+
 You should be able to search a MQTTbox in google
 ![Alt text](mqtt/step1.png?raw=true "Download MQTTBox")
 
