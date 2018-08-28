@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Starting script sayIPbs "
 private=`hostname -I | sed -E -e 's/[[:blank:]]+/_/g' 
 string="private address is $private"
