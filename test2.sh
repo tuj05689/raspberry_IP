@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Starting script sayIPbs "
-private=`hostname -I | sed -E -e 's/[[:blank:]]+/_/g' 
+private=`hostname -I | sed -E -e 's/[[:blank:]]+/_/g' `
 string="private address is $private"
 res=`mosquitto_pub -h iot.eclipse.org -t raspberry/ipaddress -m $private`
 #echo $string | sed 's/\./ dot /g' 
