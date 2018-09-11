@@ -4,7 +4,7 @@ Requires=network-online.target
 After=network.target network-online.target multi-user.target
 
 [Service]
-ExecStart=/etc/init.d/ipaddress.sh  
+ExecStart=/home/pi/test2.sh  
 Restart=on-failure
 RestartSec=10
 Type=notify
