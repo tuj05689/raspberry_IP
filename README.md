@@ -36,3 +36,13 @@ You can remove publisher as shown in the figure below
 
 In your raspberry pi, you can click on the last two pins so you will see you will the new private IP address of raspberry Pi.
 ![Alt text](mqtt/step7.png?raw=true "MQTTBox")
+
+We can also add google text to speech to speak out the ip address. However, you will need to do the following commands
+```
+sudo apt-get install mplayer -y
+nano $HOME/.mplayer/config 
+```
+you will add a line of the following in the file
+```
+lirc=no
+```
