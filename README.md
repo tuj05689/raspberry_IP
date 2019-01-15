@@ -8,6 +8,8 @@ cp raspberry_IP/test2.sh test2.sh
 
 Now, you will need to create a startup service
 ```
+sudo systemctl is-enabled systemd-networkd-wait-online.service
+sudo systemctl enable systemd-networkd-wait-online.service
 sudo cp raspberry_IP/ipaddress.service /lib/systemd/system
 sudo systemctl daemon-reload
 sudo systemctl enable  ipaddress
