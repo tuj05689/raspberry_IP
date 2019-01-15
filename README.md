@@ -6,10 +6,13 @@ git clone https://github.com/lbaitemple/raspberry_IP/
 cp raspberry_IP/test2.sh test2.sh
 ```
 
-Now, you will need to create a startup service
+You will need to ensure a startup service to enable network
 ```
 sudo systemctl is-enabled systemd-networkd-wait-online.service
 sudo systemctl enable systemd-networkd-wait-online.service
+```
+Now, you will need to create a startup service
+```
 sudo cp raspberry_IP/ipaddress.service /lib/systemd/system
 sudo systemctl daemon-reload
 sudo systemctl enable  ipaddress
