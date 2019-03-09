@@ -8,7 +8,7 @@
 echo "Starting script sayIPbs "
 private=`hostname -I | sed -E -e 's/[[:blank:]]+/_/g' `
 string="private address is $private"
-res=`mosquitto_pub -h iot.eclipse.org -t raspberry/ipaddress -m $private`
+res=`mosquitto_pub -h mqtt.swifitch.cz -t raspberry/ipaddress -m $private`
 #echo $string | sed 's/\./ dot /g' 
 #echo $string | sed 's/\./ dot /g' | flite -voice slt
 #say $string 
