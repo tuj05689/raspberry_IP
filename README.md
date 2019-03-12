@@ -20,6 +20,12 @@ sudo systemctl enable  ipaddress
 sudo systemctl start  ipaddress
 ```
 
+
+If you have a local mqtt broker, you can use the following command to read ip address
+```
+mosquitto_sub -t raspberry/ipaddress
+```
+
 You should be able to search a MQTTbox in google
 ![Alt text](mqtt/step1.png?raw=true "Download MQTTBox")
 
