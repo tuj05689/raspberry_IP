@@ -36,7 +36,7 @@ You can setup a new MQTT client
 
 ![Alt text](mqtt/step3.png?raw=true "MQTTBox")
 
-In the new client, please specify iot.eclipse.org:1883 as shown in the redbox
+In the new client, please specify m16.cloudmqtt.com:12247, username: pspniyjc, password: sBm4EpaDgRe5 as shown in the redbox
 ![Alt text](mqtt/step4.png?raw=true "MQTTBox")
 
 
